@@ -4,19 +4,21 @@ public class Uppgift2 {
 
 		public static void main(String[] args) {
 		
-	int tal1 = 1;
-	int tal2 = 5;
-	int tal3 = 8;
-	int tal4 = 9;
-	int tal5 = 2;
-	int tal6 = 22;
-	int tal7 = 21;
-	int tal8 = 0;
-	int tal9 = -5;
-	int tal10 = 11;
+				Scanner input = new Scanner(System.in);	
 
-	
-	}
+				// Läs in tal 1
+				int tal1 = input.nextInt();
+				int min = tal1;
+				int max = tal1;
+		
+				// Läs in tal 2
+				int tal2 = input.nextInt();
+				if (tal2 > max) {
+					max = tal2;
+				}
+				if (tal2 < min) {
+				min = tal2;
+			}	
 	
 	
 
